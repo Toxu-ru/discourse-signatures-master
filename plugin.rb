@@ -1,8 +1,8 @@
 # name: discourse-signatures
 # about: A plugin to get that nostalgia signatures in Discourse Foruns
-# version: 1.0.0
-# author: Rafael Silva <xfalcox@gmail.com>
-# url: https://github.com/xfalcox/discourse-signatures
+# version: 0.0.1
+# author: Rafael Silva -> Evg <budo@narod.ru>
+# url: https://github.com/Toxu-ru/discourse-signatures-master
 
 enabled_site_setting :signatures_enabled
 
