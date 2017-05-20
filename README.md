@@ -12,7 +12,7 @@ You need to enable the plugins options for all users on Settings -> Plugins:
 
 ## About
 
-This is a work in progress! Feel free to use and ask questions here, or on [Meta](meta.discourse.org).
+Original version of the plugin: [https://github.com/xfalcox/discourse-signatures](https://github.com/xfalcox/discourse-signatures).
 
 ## TODO
 
