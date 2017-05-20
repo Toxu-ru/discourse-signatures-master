@@ -1,4 +1,4 @@
-en:
+ru:
   site_settings:
     signatures_enabled: "Включить интересы в посте?"
-    signatures_advanced_mode: "Let users use a full blow post editor to create signatures. RESETS all existing signatures. Needs a server restart"
+    signatures_advanced_mode: "Позвольте пользователям использовать редактор почтовых сообщений для создания подписей. СБРОС все существующие подписи. Требуется перезагрузка сервера"
