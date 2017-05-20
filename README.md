@@ -1,4 +1,4 @@
-# Discourse Signatures
+# Discourse Signatures (interests)
 
 ## Installation
 
