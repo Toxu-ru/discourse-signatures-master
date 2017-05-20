@@ -1,5 +1,5 @@
 # name: discourse-signatures
-# about: A plugin to get that nostalgia signatures in Discourse Foruns
+# about: A plugin to get that nostalgia signatures (interests) in Discourse Foruns
 # version: 0.0.1
 # author: Rafael Silva -> Evg <budo@narod.ru>
 # url: https://github.com/Toxu-ru/discourse-signatures-master
