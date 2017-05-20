@@ -18,7 +18,7 @@ function attachSignature(api) {
         if (siteSettings.signatures_advanced_mode) {
           return [dec.h('hr'), dec.h('div', new RawHtml({html: `<div class='user-signature'>${cook(attrs.user_signature)}</div>`}))];
         } else {
-          return new RawHtml({html: `<div class='user-signature'>${cook(attrs.user_signature)}</div>`});
+          return new RawHtml({html: `<div class='user-signature'>${attrs.user_signature}</div>`});
         }
       }
     }
