@@ -7,7 +7,7 @@ Proceed with a normal [installation of a plugin](https://meta.discourse.org/t/in
 
 ## After Installation
 
-You need to enable the plugins options for all users on Settings -> Plugins:
+You need to enable the plugins options for all users on Settings -> Plugins: ...
 
 
 ## About
