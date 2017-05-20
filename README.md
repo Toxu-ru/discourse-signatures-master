@@ -17,4 +17,4 @@ Original version of the plugin: [https://github.com/xfalcox/discourse-signatures
 ## TODO
 
 - Figure out a way so the user doens't have to refresh te browser to change the `see signatures` options.
-- Cache the cooked signatures
+- Cache the cooked signatures (interests)
