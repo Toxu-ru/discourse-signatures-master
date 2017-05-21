@@ -12,7 +12,7 @@ You need to enable the plugins options for all users on Settings -> Plugins: ...
 
 ## About
 
-Подпись интересов под ником
+Signing of interests under a nickname (Подпись интересов под ником)
 
 <img src="http://toxu.ru/uploads/default/original/1X/a9c57f8cd34d23189ed58eacafdb4a14505bfb29.jpg" width="690" height="152">
 
