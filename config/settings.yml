@@ -1,6 +1,6 @@
 plugins:
   signatures_enabled:
-    default: false
+    default: true
     client: true
   signatures_advanced_mode:
     default: false
