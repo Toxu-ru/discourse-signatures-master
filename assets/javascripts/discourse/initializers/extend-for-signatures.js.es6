@@ -13,7 +13,7 @@ function attachSignature(api) {
    // const currentUser = api.getCurrentUser();
     const siteSettings = Discourse.SiteSettings; // TODO: change way to get the sitesettings
     
-      const enabled = currentUser.get('custom_fields.see_signatures');
+   //   const enabled = currentUser.get('custom_fields.see_signatures');
       
         if (siteSettings.signatures_advanced_mode) {
    // return [dec.h('hr'), dec.h('div', new RawHtml({html: `<div class='user-signature'>${cook(attrs.user_signature)}</div>`}))];
