@@ -19,7 +19,7 @@ function attachSignature(api) {
    // return [dec.h('hr'), dec.h('div', new RawHtml({html: `<div class='user-signature'>${cook(attrs.user_signature)}</div>`}))];
        return new RawHtml({html: `<div class='user-signature'>${attrs.user_signature}</div>`});
         } else {
-          var signt = `${attrs.user_signature}`.replace(/[^а-яА-Яa-zA-Z ,]+/g, "");
+          var signt = `${attrs.user_signature}`.replace(/[^\p{Alnum} ,]+/g, "");
           return new RawHtml({html: `<div class='user-signature'>${signt}</div>`});
           
           //return new RawHtml({html: `<div class='user-signature'>${attrs.user_signature}</div>`});
