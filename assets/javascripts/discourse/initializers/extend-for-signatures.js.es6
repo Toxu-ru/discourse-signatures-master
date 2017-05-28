@@ -1,6 +1,6 @@
 import { withPluginApi } from 'discourse/lib/plugin-api';
 import RawHtml from 'discourse/widgets/raw-html';
-import { cook } from 'discourse/lib/text';
+//import { cook } from 'discourse/lib/text';
 
 function attachSignature(api) {
   api.includePostAttributes('user_signature');
