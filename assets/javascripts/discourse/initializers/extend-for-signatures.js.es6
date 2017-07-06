@@ -11,7 +11,7 @@ function attachSignature(api) {
     if (Ember.isEmpty(attrs.user_signature)) { return; }
 
    // const currentUser = api.getCurrentUser();
-    const siteSettings = Discourse.SiteSettings; // TODO: change way to get the sitesettings
+    const siteSettings = this.siteSettings; // TODO: change way to get the sitesettings
     
    //   const enabled = currentUser.get('custom_fields.see_signatures');
       
