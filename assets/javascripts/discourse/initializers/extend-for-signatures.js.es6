@@ -5,7 +5,7 @@ import RawHtml from 'discourse/widgets/raw-html';
 function attachSignature(api) {
   api.includePostAttributes('user_signature');
 
-  api.decorateWidget('post-meta-data:after', dec => {
+  api.decorateWidget('post-cooked:before', dec => {
 
     const attrs = dec.attrs;
     if (Ember.isEmpty(attrs.user_signature)) { return; }
