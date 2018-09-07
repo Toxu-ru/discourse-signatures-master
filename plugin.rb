@@ -16,6 +16,9 @@ after_initialize do
   User.register_custom_field_type('signature_url', :text)
   User.register_custom_field_type('signature_raw', :text)
 
+  register_editable_user_custom_field :signature_url if defined? register_editable_user_custom_field
+  
+  
   if SiteSetting.signatures_enabled then
     add_to_serializer(:post, :user_signature, false) {
       if SiteSetting.signatures_advanced_mode then
