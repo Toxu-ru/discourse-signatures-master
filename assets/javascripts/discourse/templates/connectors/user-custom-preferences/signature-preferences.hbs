@@ -7,10 +7,10 @@
         {{d-editor value=model.custom_fields.signature_raw showUploadModal="showUploadModal"}}
       {{else}}
         <label class='text-label'>
-          {{input maxlength="200" class="input-xxlarge" type="text" value=model.custom_fields.signature_url}}
+          {{input maxlength="75" class="input-xxlarge" type="text" value=model.custom_fields.signature_url}}
         </label>
       {{/if}}
     </div>
-    <div class="instructions">Например: Спорт и походы (не более 200 символов)</div>
+    <div class="instructions">Например: Спорт и походы (не более 75 символов)</div>
   </div>
 {{/if}}
